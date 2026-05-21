@@ -1,0 +1,1 @@
+El archivo se corre desde VentanaPrincipal.java (src -> interfaz -> principal -> VentanaPrincipal)
