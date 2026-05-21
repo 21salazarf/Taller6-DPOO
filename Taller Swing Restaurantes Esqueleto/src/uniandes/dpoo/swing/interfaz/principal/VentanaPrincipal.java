@@ -2,9 +2,7 @@ package uniandes.dpoo.swing.interfaz.principal;
 
 import java.awt.BorderLayout;
 import java.util.List;
-
 import javax.swing.JFrame;
-
 import uniandes.dpoo.swing.interfaz.agregar.VentanaAgregarRestaurante;
 import uniandes.dpoo.swing.interfaz.mapa.VentanaMapa;
 import uniandes.dpoo.swing.mundo.Diario;
@@ -90,7 +88,6 @@ public class VentanaPrincipal extends JFrame
     	
     	if (ventanaMapa == null || !ventanaMapa.isVisible())
         {
-            // Crea la ventana pasándole esta misma VentanaPrincipal y la lista inicial de todos los restaurantes
             ventanaMapa = new VentanaMapa(this, getRestaurantes(true));
             ventanaMapa.setVisible(true);
         }

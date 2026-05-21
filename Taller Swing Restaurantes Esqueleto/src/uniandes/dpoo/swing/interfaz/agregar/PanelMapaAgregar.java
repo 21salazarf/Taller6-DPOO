@@ -5,7 +5,6 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -54,7 +53,6 @@ public class PanelMapaAgregar extends JPanel implements MouseListener
     {
         super.paint( g );
 
-        // Pinta un círculo rojo en la posición designada para el restaurante
         Graphics2D g2d = ( Graphics2D )g;
         g2d.setColor( Color.red );
         g2d.fillOval( x - 3, y - 3, 7, 7 );
